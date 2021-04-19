@@ -79,9 +79,7 @@ body{
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    padding: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 20px;
     border-radius: 5px;
     list-style: none;
     background-color: white;
@@ -112,7 +110,6 @@ body{
     padding: 10px 26px;
     text-decoration: none;
     border: 1px solid #000000;
-    box-sizing: border-box;
     border-radius: 5px;
     font-size: 20px;
     line-height: 30px;
@@ -258,13 +255,28 @@ body{
     line-height: 48px;
     color: #172F53;
 }
-.services-img{
+.services-title::after{
+    content: "";
+    display: block;
     width: 120px;
     height: 120px;
+    background-position: 32% 32%;
+    border-radius: 50%;
+    margin-top: 34px;
     margin-bottom: 39px;
-    background: #FFFFFF;
     box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);
-    border-radius: 75px;
+}
+.heroes-title::after{
+    background-image: url(/images/present-box.svg);
+}
+.airplanings-title::after{
+    background-image: url(/images/airplanings.svg);
+}
+.speedrunner-title::after{
+    background-image: url(/images/speedrunner.svg);
+}
+.racers-title::after{
+    background-image: url(/images/local-racers.svg);
 }
 .services-text{
     margin: 0;
@@ -273,6 +285,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     color: #A9A9A9;
+    white-space: nowrap;
 }
 .services-text:first-child{
     margin-bottom: 10px;
