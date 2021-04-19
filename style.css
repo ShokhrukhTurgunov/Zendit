@@ -19,7 +19,7 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-family: "Poppins", "Arial", "Helvetica", sans-serif;
 }
 .container{
     max-width: 1635px;
@@ -36,18 +36,8 @@ body{
     margin: 0 auto;
     padding-top: 63px;
 }
-.logo-link{
+.logo-img{
     margin-right: 150px;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
-.logo-text{
-    margin-left: 13px;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 48px;
-    color: #172F53;
 }
 .sitenav__list{
     display: flex;
