@@ -378,7 +378,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 1400px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 185px;
     padding: 105px 96px;
     background: #FFFFFF;
