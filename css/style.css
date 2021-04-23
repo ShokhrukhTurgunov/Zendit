@@ -80,11 +80,11 @@ body{
 }
 .sitenav__list{
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     list-style: none;
 }
 .sitenav__item{
-    position: relative;
     margin: 0;
     margin-right: 62px;
     padding: 0;
@@ -97,6 +97,7 @@ body{
     font-size: 20px;
     line-height: 30px;
     color: var(--text-color);
+    white-space: nowrap;
 }
 .sitenav-link::after{
     content: "";
@@ -137,6 +138,7 @@ body{
 }
 .signing-box{
     margin-left: auto;
+    white-space: nowrap;
 }
 .nav-link{
     text-decoration: none;
@@ -448,7 +450,7 @@ body{
     background-repeat: repeat-x;
     background-position: center bottom;
 }
-.inside-footer{
+.site-footer-container{
     display: flex;
     justify-content: space-between;
 }
