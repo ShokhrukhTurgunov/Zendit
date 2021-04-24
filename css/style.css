@@ -85,6 +85,7 @@ body{
     list-style: none;
 }
 .sitenav__item{
+    position: relative;
     margin: 0;
     margin-right: 62px;
     padding: 0;
